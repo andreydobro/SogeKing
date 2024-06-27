@@ -1,0 +1,214 @@
+body {
+  font-family: "Nohemi", sans-serif;
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --blue: #1B00EA;
+  --black: #191726;
+  --grey: #504F59;
+  --white: #ffffff;
+  --nohemi-medium: "Nohemi", sans-serif;
+  --nohemi-bold: "Nohemi", sans-serif;
+  --nohemi-light: "Nohemi", sans-serif;
+  --nohemi-regular: "Nohemi", sans-serif;
+  --nohemi-semibold: "Nohemi", sans-serif;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url(/fonts/nohemi/Nohemi-Bold-BF6438cc587b5b5.ttf);
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url(/fonts/nohemi/Nohemi-Light-BF6438cc5899919.ttf);
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url(/fonts/nohemi/Nohemi-Medium-BF6438cc5883899.ttf);
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url(/fonts/nohemi/Nohemi-Regular-BF6438cc587b5b5.ttf);
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url(/fonts/nohemi/Nohemi-Semibold-BF6438cc587b5b5.ttf);
+}
+.container {
+  max-width: 1204px;
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 40px 0 14px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__menu:hover li {
+  cursor: pointer;
+}
+
+.header__auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.btn--primary {
+  color: var(--black);
+}
+
+.btn--secondary {
+  width: 142px;
+  height: 40px;
+  background-color: var(--blue);
+  color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+}
+
+.btn--secondary:hover {
+  background-color: #096afc;
+}
+
+.btn--primary:hover {
+  color: #515151;
+}
+
+.search-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.sertch-home__info {
+  width: 558px;
+}
