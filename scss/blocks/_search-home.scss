@@ -1,8 +1,46 @@
-.search-home {
+.serch-home {
+    position: relative;
     display: flex;
-    gap: 40px;;
+    justify-content:  space-between;
 }
 
-.sertch-home__info {
+.serch-home__info {
     width: 558px;
+    margin: 90px 0 0;
+}
+
+.serch-home__title {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 88px;
+    letter-spacing: 0.5px;
+    color: var(--black);
+}
+
+.serch-home__subtitle {
+    width: 438px;
+    margin-top: 32px;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+}
+
+.serch-home__partners {
+    width: 458px;
+    margin: 80px 0;
+}
+
+.serch-home__partners-title {
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.serth-home__partners-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-home__img {
+    margin-right: -120px;
 }
