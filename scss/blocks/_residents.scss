@@ -1,0 +1,60 @@
+.residents {
+    margin-top: 100px;
+    width: 100%;
+    height: 1000px;
+}
+
+.residents-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.residents-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--grey);
+}
+
+.residents__cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    row-gap: 50px;
+    margin-top: 30px; 
+}
+
+.residents__card {
+    width: 360px;
+    height: 444px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 24px 34px 0px #504f5924;
+}
+.residents__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    margin: 32px 0 14px;
+}
+
+.residents__card-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.residents__card-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.residents__card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+}

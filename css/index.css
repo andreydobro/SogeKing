@@ -359,7 +359,6 @@ legend {
 
 .dream {
   width: 100%;
-  height: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,8 +441,6 @@ legend {
 
 .dream__img {
   width: 512px;
-  height: 692px;
-  background-color: deepskyblue;
 }
 
 .dream__image {
@@ -456,4 +453,87 @@ legend {
   font-size: 48px;
   letter-spacing: 0.3px;
   color: var(--black);
+}
+
+.residents {
+  margin-top: 100px;
+  width: 100%;
+  height: 1000px;
+}
+
+.residents-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.residents-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  color: var(--grey);
+}
+
+.residents__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  row-gap: 50px;
+  margin-top: 30px;
+}
+
+.residents__card {
+  width: 360px;
+  height: 444px;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 24px 34px 0px rgba(80, 79, 89, 0.1411764706);
+          box-shadow: 0px 24px 34px 0px rgba(80, 79, 89, 0.1411764706);
+}
+
+.residents__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 32px 0 14px;
+}
+
+.residents__card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.residents__card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.residents__card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
 }
